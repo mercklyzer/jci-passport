@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 88mm;
+    width: 125mm;
+    background-image: url('./jci_passport_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.picture-container {
+    width:88px;
+    height:88px;
+    position: absolute;
+    left: 26px;
+}
+
+.id-picture-container {
+    top: 85px;
+}
+
+.id-picture {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.qr-code-container {
+    top: 176px;
+}
+
+.qr-code {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.field-value {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333C3E;
+    font-weight: 400;
+    position: absolute;
+    overflow: hidden;
+    text-wrap: nowrap;
+    /* background: #000; */
+}
+
+#name {
+    top: 94px;
+    left: 130px;
+    width: 326px;
+}
+
+#nickname {
+    top: 132px;
+    left: 130px;
+    width: 140px;
+}
+
+#number {
+    top: 132px;
+    left: 290px;
+    width: 166px;
+}
+
+#area-chapter {
+    top: 168px;
+    left: 130px;
+    width: 326px;
+}
+
+#email {
+    top: 202px;
+    left: 130px;
+    width: 326px;
+    text-transform: unset;
+}
+
+#residence {
+    top: 238px;
+    left: 130px;
+    width: 326px;
+    text-transform: unset;
+    text-wrap: unset;
+}
+
+.code {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #201E1D;
+    font-weight: 400;
+    position: absolute;
+    overflow: hidden;
+    text-wrap: nowrap;
+    left: 22px;
+    width: 430px;
+    overflow: hidden;
+
+}
+
+#code-name{
+    top: 286px;
+}
+
+#code-id{
+    top: 306px;
+}
